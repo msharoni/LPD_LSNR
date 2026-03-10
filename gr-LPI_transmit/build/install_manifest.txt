@@ -1,0 +1,13 @@
+/usr/local/lib/cmake/gnuradio-LPI_transmit/gnuradio-LPI_transmitConfig.cmake
+/usr/local/include/gnuradio/LPI_transmit/api.h
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/__init__.py
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/dsss_encoder.py
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/bpsk_mod.py
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/__init__.pyc
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/dsss_encoder.pyc
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/bpsk_mod.pyc
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/__init__.pyo
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/dsss_encoder.pyo
+/usr/local/lib/python3.12/dist-packages/gnuradio/LPI_transmit/bpsk_mod.pyo
+/usr/local/share/gnuradio/grc/blocks/LPI_transmit_dsss_encoder.block.yml
+/usr/local/share/gnuradio/grc/blocks/LPI_transmit_bpsk_mod.block.yml
