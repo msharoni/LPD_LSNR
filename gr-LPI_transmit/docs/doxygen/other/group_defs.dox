@@ -1,0 +1,6 @@
+/*!
+ * \defgroup block GNU Radio LPI_TRANSMIT C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the LPI_TRANSMIT GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
