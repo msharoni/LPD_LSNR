@@ -19,7 +19,7 @@ add_subdirectory(bindings)
 ########################################################################
 # Install python sources
 ########################################################################
-gr_python_install(FILES __init__.py dsss_encoder.py bpsk_mod.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/LPI_transmit)
+gr_python_install(FILES __init__.py dsss_encoder.py bpsk_mod.py bpsk_demod.py dsss_decode.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/LPI_transmit)
 
 ########################################################################
 # Handle the unit tests

@@ -25,7 +25,7 @@ parameters:
 inputs:
 - label: in
   domain: stream
-  dtype: int
+  dtype: float
 
 outputs:
 - label: out

@@ -46,6 +46,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/grc/LPI_transmit_dsss_encoder.block.yml"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/grc/LPI_transmit_bpsk_mod.block.yml"
+    "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/grc/LPI_transmit_bpsk_demod.block.yml"
     )
 endif()
 

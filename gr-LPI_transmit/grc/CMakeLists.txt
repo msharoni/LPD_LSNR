@@ -8,4 +8,6 @@
 
 install(FILES
     LPI_transmit_dsss_encoder.block.yml
-    LPI_transmit_bpsk_mod.block.yml DESTINATION share/gnuradio/grc/blocks)
+    LPI_transmit_bpsk_mod.block.yml
+    LPI_transmit_bpsk_demod.block.yml
+    LPI_transmit_dsss_decode.block.yml DESTINATION share/gnuradio/grc/blocks)

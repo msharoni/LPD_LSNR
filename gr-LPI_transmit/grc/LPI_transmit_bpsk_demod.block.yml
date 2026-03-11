@@ -1,10 +1,10 @@
-id: LPI_transmit_dsss_encoder
-label: dsss_encoder
+id: LPI_transmit_bpsk_demod
+label: bpsk_demod
 category: '[LPI_transmit]'
 
 templates:
   imports: from gnuradio import LPI_transmit
-  make: LPI_transmit.dsss_encoder(${data}, ${seed})
+  make: LPI_transmit.bpsk_demod()
 
 #  Make one 'parameters' list entry for every parameter you want settable from the GUI.
 #     Keys include:
@@ -13,15 +13,7 @@ templates:
 #     * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
 #     * default
 parameters:
-- id: seed
-  label: Seed
-  dtype: string
-  default: '1111'
 
-- id: data
-  label: data
-  dtype: string
-  default: "god is king"
 #  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
 #  Keys include:
 #      * label (an identifier for the GUI)
@@ -30,11 +22,12 @@ parameters:
 #      * vlen (optional - data stream vector length. Default is 1)
 #      * optional (optional - set to 1 for optional inputs. Default is 0)
 inputs:
+- label: in
+  dtype: complex
 
 outputs:
 - label: out
-  domain: stream
-  dtype: int
+  dtype: float
 
 #  'file_format' specifies the version of the GRC yml format used in the file
 #  and should usually not be changed.

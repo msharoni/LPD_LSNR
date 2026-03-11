@@ -22,4 +22,5 @@ except ModuleNotFoundError:
 # import any pure python here
 from .dsss_encoder import dsss_encoder
 from .bpsk_mod import bpsk_mod
+from .bpsk_demod import bpsk_demod
 #

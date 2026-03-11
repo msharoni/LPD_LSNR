@@ -47,6 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/python/LPI_transmit/__init__.py"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/python/LPI_transmit/dsss_encoder.py"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/python/LPI_transmit/bpsk_mod.py"
+    "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/python/LPI_transmit/bpsk_demod.py"
     )
 endif()
 
@@ -55,9 +56,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/__init__.pyc"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/dsss_encoder.pyc"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/bpsk_mod.pyc"
+    "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/bpsk_demod.pyc"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/__init__.pyo"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/dsss_encoder.pyo"
     "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/bpsk_mod.pyo"
+    "/home/sdr/Documents/BEST PROJECT 2026/gr-LPI_transmit/build/python/LPI_transmit/bpsk_demod.pyo"
     )
 endif()
 
